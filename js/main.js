@@ -5,6 +5,7 @@ let allSmallImg = document.querySelectorAll(".icons img");
 
 let container = document.querySelector(".container");
 
+let mainBtn = document.querySelector("#mainBtn");
 
 let text = document.querySelector(".text");
 console.log(mainBtn)
