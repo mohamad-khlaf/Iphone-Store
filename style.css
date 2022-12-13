@@ -122,3 +122,33 @@ header ul li a {
     transform: translateY(-10px) scale(1.2);
 }
 /* End icons of phone  */
+
+
+/* for Small Mobile  */
+
+@media (max-width: 575px) {
+    header {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .content img {
+        width: 120px;
+    }
+    .content .text {
+        width: 50%;
+        padding-top: 60px;
+    }
+    .content .text h2  {
+        font-size: 30px;
+    }
+    .content .text p  {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    body {
+        overflow: hidden;
+    }
+    .icons {
+        margin-top: 100px;
+    }
+}
