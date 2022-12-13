@@ -9,7 +9,6 @@ let container = document.querySelector(".container");
 let mainBtn = document.querySelector("#mainBtn");
 
 let text = document.querySelector(".text");
-console.log(mainBtn)
 
 allSmallImg.forEach(function(img) {
     
